@@ -1,0 +1,15 @@
+*** DNS Spoofer ***
+
+DNS:  Translating regular domains (google.com) to an IP address
+
+DNS Poisoning:  
+Attacker intercepts between the User & Domain Name System
+Attacker can now redirect traffic to a poisoned website
+
+
+
+The send requests to web server:  ping -c 1 domain_name
+
+To redirect traffic from DNS to poisoned web server:  
+Specify rrname & rdata
+Example:  answer = scapy.DNSRR(rrname=qname, rdata=”10.0.2.16”)

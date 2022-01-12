@@ -1,0 +1,15 @@
+**** ARP SPOOFER****
+
+ARP:  Address Resolution Protocol
+
+Resolves or maps the IP address of a client with the associated MAC address
+
+-- Requesting client/workstation knows the IP address, but not the    MAC address
+-- ARP request packet (with IP address of target client) is sent    to all clients/workstations within the network 
+-- The client with the associated correct IP address communicates    back with its MAC address 
+
+
+Scapy ARP:  
+
+arp_request = scapy.ARP(pdst=ip) → Sends ARP request
+Pdst =  name of the field which we want to set which is found by scapy.ls(scapy.ARP)

@@ -1,0 +1,6 @@
+*** Network Scanner ***
+
+-- Discover all devices on the network
+-- Display their IP address
+-- Display their MAC address 
+

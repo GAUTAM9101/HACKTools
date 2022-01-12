@@ -1,0 +1,8 @@
+*** Packet Sniffer ***
+
+-- Capture data flowing through an interface
+-- Filter this data
+-- Display interesting information such as
+-- Login info (usernames & passwords)
+-- Visited websites 
+-- viewing Images 

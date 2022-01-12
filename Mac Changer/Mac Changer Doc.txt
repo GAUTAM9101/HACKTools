@@ -1,0 +1,14 @@
+*** MAC Address Changer ***
+
+MAC :- Media Access Control
+-- Permanent
+-- Physical 
+-- Unique
+-- Assigned to network interfaces by manufacturer 
+
+Why Change the MAC Address? 
+Increase anonymity 
+Impersonate other devices
+Bypass Filters 
+
+A MAC Address transfers data within the network

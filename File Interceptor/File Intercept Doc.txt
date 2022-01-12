@@ -1,0 +1,6 @@
+*** File Interceptor ***
+
+
+Edit requests/responses
+Replace download requests
+Inject code (html/Javascript)
